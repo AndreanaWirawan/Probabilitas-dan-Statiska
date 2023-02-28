@@ -25,7 +25,7 @@ for i in nim:
     if i in tampungan:
         tampungan[i] += 1
     else:
-        tampungan[i] = 1
+        tampungan[i] = 0
 modus = None
 tampungan_tertinggi = 0
 for k, j in tampungan.items():
